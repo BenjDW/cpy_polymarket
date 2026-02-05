@@ -2,6 +2,7 @@ from web3 import Web3
 from web3.constants import MAX_INT
 from web3.middleware import geth_poa_middleware
 
+#set allowance for usdc and ctf on the polygon network onlyfor the metamask wallet case
 rpc_url = "" # Polygon rpc url 
 priv_key = "" # Polygon account private key (needs some MATIC)
 pub_key = "" # Polygon account public key corresponding to private key

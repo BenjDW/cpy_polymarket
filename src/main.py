@@ -9,7 +9,7 @@ public_key = os.getenv("PUBLIC_KEY")
 api_key = os.getenv("API_KEY")
 
 # target wallet
-target_wallet = os.getenv("target_wallet")
+target_wallet = os.getenv("other_target_wallet")
 
 # polymarket api
 data_api = "https://data-api.polymarket.com"
